@@ -1,0 +1,9 @@
+添加组件
+1、components.json 中添加
+2、src/index.js 中添加
+
+运行
+npm rum dev
+
+打包
+npm run dist
