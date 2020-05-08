@@ -82,6 +82,16 @@ import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
 import Popconfirm from '../packages/popconfirm/index.js';
+import Code from '../packages/code/index.js';
+import Xy from '../packages/xy/index.js';
+import Zy from '../packages/zy/index.js';
+import Bj from '../packages/bj/index.js';
+import Nj from '../packages/nj/index.js';
+import Area from '../packages/area/index.js';
+import TreeSelect from '../packages/tree-select/index.js';
+import SelectCustom from '../packages/select-custom/index.js';
+import RadioCustom from '../packages/radio-custom/index.js';
+import CheckboxCustom from '../packages/checkbox-custom/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -163,6 +173,16 @@ const components = [
   Avatar,
   Drawer,
   Popconfirm,
+  Code,
+  Xy,
+  Zy,
+  Bj,
+  Nj,
+  Area,
+  TreeSelect,
+  SelectCustom,
+  RadioCustom,
+  CheckboxCustom,
   CollapseTransition
 ];
 
@@ -284,5 +304,15 @@ export default {
   CascaderPanel,
   Avatar,
   Drawer,
-  Popconfirm
+  Popconfirm,
+  Code,
+  Xy,
+  Zy,
+  Bj,
+  Nj,
+  Area,
+  TreeSelect,
+  SelectCustom,
+  RadioCustom,
+  CheckboxCustom
 };

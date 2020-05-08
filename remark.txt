@@ -7,3 +7,7 @@ npm rum dev
 
 打包
 npm run dist
+
+添加新包
+npm install axios
+npm install pinyin-match

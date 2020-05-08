@@ -80,5 +80,15 @@
   "cascader-panel": "./packages/cascader-panel/index.js",
   "avatar": "./packages/avatar/index.js",
   "drawer": "./packages/drawer/index.js",
-  "popconfirm": "./packages/popconfirm/index.js"
+  "popconfirm": "./packages/popconfirm/index.js",
+  "code": "./packages/code/index.js",
+  "xy": "./packages/xy/index.js",
+  "zy": "./packages/zy/index.js",
+  "bj": "./packages/bj/index.js",
+  "nj": "./packages/nj/index.js",
+  "area": "./packages/area/index.js",
+  "tree-select": "packages/tree-select/index.js",
+  "select-custom": "./packages/select-custom/index.js",
+  "radio-custom": "./packages/radio-custom/index.js",
+  "checkbox-custom": "./packages/checkbox-custom/index.js"
 }
