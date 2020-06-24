@@ -1,7 +1,7 @@
 <template>
     <el-cascader
             :props="{ expandTrigger: 'hover' }" :size="size" :clearable="clearable" :filterable="filterable" :disabled="disabled"
-            :options="options" :placeholder="placeholder"
+            :options="options" :placeholder="placeholder" :filter-method="pinyinMatch"
             :separator="separator" @change="handleChange"
             v-model="currentValue">
     </el-cascader>
@@ -10,6 +10,7 @@
 <script>
     import emitter from 'element-ui/src/mixins/emitter';
     import ElCascader from 'element-ui/packages/cascader';
+    import PinyinMatch from 'pinyin-match';
     import axios from 'axios';
     export default {
       name: 'ElArea',
@@ -103,6 +104,9 @@
               this.copyOptions = this.options;
             }
           );
+        },
+        pinyinMatch(node, keyword) {
+          return PinyinMatch.match(node.text, keyword);
         }
       },
       mounted() {
